@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/nori">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/privacy_policy"
+                android:icon="@drawable/ic_lock_black_24dp"
+                android:title="Privacy Policy"/>
+            <item
+                android:title="Setting"
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_menu_manage"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"
+                />
+        </menu>
+    </item>
+</menu>
