@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="facebook_setting"
+        android:title="Facebook"
+        android:icon="@drawable/facebook_icon"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="instagram_setting"
+        android:title="Instagram"
+        android:icon="@drawable/instagram_icon"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="gmail_setting"
+        android:title="Gmail"
+        android:icon="@drawable/gmail_icon"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="whatsapp_setting"
+        android:title="WhatsApp"
+        android:icon="@drawable/whatsapp_icon"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="google_drive_setting"
+        android:title="Google Drive"
+        android:icon="@drawable/google_drive_icon"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="dropbox_setting"
+        android:title="DropBox"
+        android:icon="@drawable/dropbox_icon"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="onedrive_setting"
+        android:title="One Drive"
+        android:icon="@drawable/onedrive_icon"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="wechat_setting"
+        android:title="WeChat"
+        android:icon="@drawable/wechat_icon"/>
+
+
+</PreferenceScreen>
