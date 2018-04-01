@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity
                     Snackbar.make(view, "Applying Encryption", Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
                     statusText.setText(SECURE);
+                    startAnimationActivity();
                 } else{
                     Snackbar.make(view, "Exiting encryption mode", Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
@@ -50,6 +51,11 @@ public class MainActivity extends AppCompatActivity
                 }
             }
         });
+    }
+
+    private void startAnimationActivity() {
+        Intent intent = new Intent(this, PowerUpAnimation.class);
+        startActivity(intent);
     }
 
     private void wireWidgets() {

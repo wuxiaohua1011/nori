@@ -12,7 +12,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <!-- Splash Screen -->
         <activity
             android:name=".SplashScreen"
@@ -31,6 +31,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.michaelwu.try2.MainActivity" />
         </activity>
+        <activity
+            android:name=".PowerUpAnimation"
+            android:theme="@style/AppFullScreenTheme"></activity>
     </application>
 
 </manifest>
